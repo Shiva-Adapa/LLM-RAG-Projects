@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Jun  5 19:19:57 2025
-
-@author: mmrayg01
-"""
 
 
 import streamlit as st
@@ -17,7 +12,7 @@ import os
 # Load documents and embed
 @st.cache_resource
 def load_index():
-    docs_path = "docs"
+    docs_path = "C:\Users\SHANKER ADAPA\Downloads\2024-KDD-RAG-Meets-LLM-tutorial-Part1.pdf"
     chunks = []
     for filename in os.listdir(docs_path):
         if filename.endswith(".pdf"):
