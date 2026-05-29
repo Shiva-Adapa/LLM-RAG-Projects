@@ -4,13 +4,6 @@ An AI-powered inventory analytics application that moves beyond static reporting
 
 Built to reflect real supply chain dynamics common in USA Market.
 
----
-
-## Screenshot
-
-![AI Inventory Intelligence Dashboard](screenshot.png)
-
----
 
 ## What It Does
 
