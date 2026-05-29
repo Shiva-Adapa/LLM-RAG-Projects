@@ -2,7 +2,7 @@
 
 An AI-powered inventory analytics application that moves beyond static reporting — combining rule-based decision logic with LangChain agents, OpenAI-generated executive insights, and automated PDF reporting.
 
-Built to reflect real supply chain dynamics common in UAE and GCC markets.
+Built to reflect real supply chain dynamics common in USA Market.
 
 ---
 
@@ -52,30 +52,25 @@ The application analyses product-level sales and stock data, classifies every pr
 
 ## How to Run
 
-**1. Clone the repository**
-```bash
-git clone https://github.com/lana-almaradni/ai-inventory-intelligence.git
-cd ai-inventory-intelligence
-```
 
-**2. Install dependencies**
+**1. Install dependencies**
 ```bash
 pip install streamlit pandas openai langchain langchain-openai python-dotenv reportlab openpyxl
 ```
 
-**3. Add your OpenAI API key**
+**2. Add your OpenAI API key**
 
 Create a `.env` file in the root folder:
 ```
 OPENAI_API_KEY=your-key-here
 ```
 
-**4. Run the app**
+**3. Run the app**
 ```bash
 streamlit run streamlit_app.py
 ```
 
-**5. Upload your Excel file**
+**4. Upload your Excel file**
 
 Use the sidebar to upload your Excel file with three sheets: `Sales`, `Stock`, and `Products`.
 
@@ -93,16 +88,3 @@ ai-inventory-intelligence/
 
 ---
 
-## About the Author
-
-**Lana Al-Maradni** — AI-Augmented Analytics Specialist · Dubai, UAE
-
-19+ years in data and business analytics, including humanitarian analytics with UN/OCHA across Syria, Jordan, and South Sudan — covering needs assessments, response analysis, reach vs. target reporting, and humanitarian access monitoring across complex operational environments.
-
-Now focused on AI-native analytics solutions for UAE and GCC markets.
-
-🔗 [LinkedIn](https://www.linkedin.com/in/lanamaradni/) · [GitHub](https://github.com/lana-almaradni)
-
----
-
-*Open to AI Analytics and Consulting roles in Dubai and the GCC.*
